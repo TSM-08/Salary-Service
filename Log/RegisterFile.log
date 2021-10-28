@@ -1,0 +1,16 @@
+[2021-02-07 09:13:34.598331] Service <RegisterFile> started... 
+
+Parameters:
+Config file - INI/RegisterFile.ini
+Log file    - LOG/RegisterFile.log
+
+Initialize section [postgresql]... OK
+Initialize section [fileparams]... OK
+Initialize section [elasticsrh]... OK
+
+Elastic URL: localhost:9200
+ Is enabled: NO
+
+File mask is ['.*[^_error]\\.json$']
+[2021-02-07 09:13:34.598331] Start watcher for folder: FLOW/INPUT/
+

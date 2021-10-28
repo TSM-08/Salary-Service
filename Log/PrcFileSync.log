@@ -1,0 +1,16 @@
+Parameters:
+Config file: INI/PrcFileSync.ini
+Log file: LOG/PrcFileSync.log
+
+Service PrcFileSync started... 
+   at 2020-11-08 23:10:45.580622 
+
+Connect Db... OK
+Run procedure: call docflow.prc_prcfile_stsync(%s)
+ - Force: 0
+ - Sleep: 60
+-------------------------------------------------------
+Start                      | End
+-------------------------------------------------------
+2020-11-08 23:10:45.648620 | 2020-11-08 23:10:45.660622
+2020-11-08 23:11:45.662545 | 2020-11-08 23:11:45.670538

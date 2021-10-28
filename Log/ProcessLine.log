@@ -1,0 +1,15 @@
+[2020-11-18 16:45:08.893590] Service <ProcessLine> started... 
+
+Parameters:
+Config file -> INI/ProcessLine.ini
+Log file    -> LOG/ProcessLine.log
+
+Init section [postgresql]... OK
+Init section [fileparams]... OK
+
+Initialize section [elasticsrh]... OK
+
+Elastic enabled: YES (localhost:9200)
+File mask is ['.*\\.json$']
+[2020-11-18 16:45:08.893590] Start watcher for folder: FLOW/LINES/
+

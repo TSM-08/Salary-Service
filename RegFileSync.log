@@ -1,0 +1,8 @@
+Parameters:
+Config file: RegFileSync.ini
+Log file: RegFileSync.log
+
+Service RegFileSync started... 
+   at 2020-12-06 09:51:10.059732 
+
+Unexpected error: <class 'Exception'>

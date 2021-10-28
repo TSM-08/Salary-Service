@@ -1,0 +1,1 @@
+{"proc": {"info": "PUT Status [REG] for Id [3], Notice [File registered successfully!]", "name": "RegfileStatus", "action": "Update"}, "rec_id": 3, "proj_id": 1, "act_date": "2020-12-06T17:04:23.068515", "err_code": null, "rec_date": "2020-12-06T17:04:23.081051", "rec_user": "mgrpoc", "parent_id": null, "rec_notice": "File registered successfully!", "rec_status": "REG"}

@@ -1,0 +1,21 @@
+Parameters:
+Config file: INI/RegFileSync.ini
+Log file: LOG/RegFileSync.log
+
+Service RegFileSync started... 
+   at 2020-11-04 21:11:29.849310 
+
+Connect Db... OK
+Run procedure: call docflow.prc_regfile_stsync(%s)
+ - Force: 0
+ - Sleep: 60
+-------------------------------------------------------
+Start                      | End
+-------------------------------------------------------
+2020-11-04 21:11:29.950048 | 2020-11-04 21:11:29.961017
+Closing Db... OK
+
+Service RegFileSync stopped... 
+   at 2020-11-04 21:11:31.799782 
+
+Unexpected error: <class 'KeyboardInterrupt'>

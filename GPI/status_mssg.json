@@ -1,0 +1,619 @@
+{
+  "payment_transaction": [
+    {
+      "uetr": "97ed4827-7b6f-4491-a06f-b548d5a7512d",
+      "transaction_status": "ACCC",
+      "initiation_time": "2020-08-30T09:00:00.000Z",
+      "completion_time": "2020-08-30T17:00:00.000Z",
+      "last_update_time": "2020-08-30T17:00:00.000Z",
+      "payment_event": [
+        {
+          "network_reference": "200830BANABEBBGXXX0001000001",
+          "message_name_identification": "103",
+          "business_service": "001",
+          "tracker_event_type": "CTPT",
+          "valid": true,
+          "instruction_identification": "abc123",
+          "transaction_status": "ACSP",
+          "transaction_status_reason": "G000",
+          "return": false,
+          "settlement_method": "INDA",
+          "from": "BANABEBBXXX",
+          "to": "BANBUS33XXX",
+          "serial_parties": {
+            "debtor_agent": "BANABEBBXXX",
+            "creditor_agent": "BANDJPJTXXX"
+          },
+          "sender_acknowledgement_receipt": "2020-08-30T09:30:00.000Z",
+          "received_date": "2020-08-30T09:30:01.000Z",
+          "instructed_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "interbank_settlement_amount": {
+            "currency": "USD",
+            "amount": "990.00"
+          },
+          "interbank_settlement_date": "2020-08-30T00:00:00.000Z",
+          "charge_bearer": "CRED",
+          "charge_amount": [
+            {
+              "currency": "USD",
+              "amount": "10.00"
+            }
+          ],
+          "last_update_time": "2020-08-30T09:30:01.000Z"
+        },
+        {
+          "network_reference": "200830BANABUS33GXXX0033000007",
+          "message_name_identification": "199",
+          "business_service": "001",
+          "tracker_event_type": "CTSU",
+          "valid": true,
+          "instruction_identification": "statusabc123",
+          "transaction_status": "ACSP",
+          "transaction_status_reason": "G000",
+          "return": false,
+          "forwarded_to_agent": "BANCUS33XXX",
+          "settlement_method": "INDA",
+          "from": "BANBUS33XXX",
+          "to": "TRCKCHZZXXX",
+          "originator": "BANBUS33XXX",
+          "sender_acknowledgement_receipt": "2020-08-30T10:00:00.000Z",
+          "confirmed_amount": {
+            "currency": "USD",
+            "amount": "970.00"
+          },
+          "charge_bearer": "CRED",
+          "charge_amount": [
+            {
+              "currency": "USD",
+              "amount": "10.00"
+            },
+            {
+              "currency": "USD",
+              "amount": "20.00"
+            }
+          ],
+          "last_update_time": "2020-08-30T10:00:00.000Z"
+        },
+        {
+          "network_reference": "200830BANCUS33GXXX0017000003",
+          "message_name_identification": "103",
+          "business_service": "001",
+          "tracker_event_type": "CTPT",
+          "valid": true,
+          "instruction_identification": "def456",
+          "transaction_status": "ACSP",
+          "transaction_status_reason": "G000",
+          "return": false,
+          "settlement_method": "INDA",
+          "from": "BANCUS33XXX",
+          "to": "BANDJPJTXXX",
+          "serial_parties": {
+            "debtor_agent": "BANABEBBXXX",
+            "creditor_agent": "BANDJPJTXXX"
+          },
+          "sender_acknowledgement_receipt": "2020-08-30T10:30:00.000Z",
+          "received_date": "2020-08-30T10:30:01.000Z",
+          "instructed_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "interbank_settlement_amount": {
+            "currency": "USD",
+            "amount": "940.00"
+          },
+          "interbank_settlement_date": "2020-08-30T00:00:00.000Z",
+          "charge_bearer": "CRED",
+          "charge_amount": [
+            {
+              "currency": "USD",
+              "amount": "10.00"
+            },
+            {
+              "currency": "USD",
+              "amount": "20.00"
+            },
+            {
+              "currency": "USD",
+              "amount": "30.00"
+            }
+          ],
+          "last_update_time": "2020-08-30T10:30:01.000Z"
+        },
+        {
+          "network_reference": "200830BANDJPJTGXXX0123000001",
+          "message_name_identification": "199",
+          "business_service": "001",
+          "tracker_event_type": "CTSU",
+          "valid": true,
+          "instruction_identification": "statusdef456",
+          "transaction_status": "ACCC",
+          "return": false,
+          "funds_available": "2020-08-30T17:00:00.000Z",
+          "from": "BANDJPJTXXX",
+          "to": "TRCKCHZZXXX",
+          "originator": "BANDJPJTXXX",
+          "sender_acknowledgement_receipt": "2020-08-30T17:00:00.000Z",
+          "confirmed_amount": {
+            "currency": "USD",
+            "amount": "900.00"
+          },
+          "charge_bearer": "CRED",
+          "charge_amount": [
+            {
+              "currency": "USD",
+              "amount": "10.00"
+            },
+            {
+              "currency": "USD",
+              "amount": "20.00"
+            },
+            {
+              "currency": "USD",
+              "amount": "30.00"
+            },
+            {
+              "currency": "USD",
+              "amount": "40.00"
+            }
+          ],
+          "last_update_time": "2020-08-30T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "uetr": "46ed4827-7b6f-4491-a06f-b548d5a7512d",
+      "transaction_status": "ACCC",
+      "initiation_time": "2020-08-30T09:00:00.000Z",
+      "completion_time": "2020-08-30T17:00:00.000Z",
+      "last_update_time": "2020-08-30T17:00:00.000Z",
+      "payment_event": [
+        {
+          "network_reference": "200830BANABEBBGXXX0395000004",
+          "message_name_identification": "103",
+          "business_service": "001",
+          "tracker_event_type": "CTPT",
+          "valid": true,
+          "instruction_identification": "abc123",
+          "transaction_status": "ACSP",
+          "transaction_status_reason": "G000",
+          "return": false,
+          "settlement_method": "COVE",
+          "from": "BANABEBBXXX",
+          "to": "BANDJPJTXXX",
+          "serial_parties": {
+            "debtor_agent": "BANABEBBXXX",
+            "instructing_reimbursement_agent": "BANBUS33XXX",
+            "creditor_agent": "BANDJPJTXXX"
+          },
+          "sender_acknowledgement_receipt": "2020-08-30T09:00:00.000Z",
+          "received_date": "2020-08-30T09:00:01.000Z",
+          "instructed_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "interbank_settlement_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "interbank_settlement_date": "2020-08-30T00:00:00.000Z",
+          "charge_bearer": "DEBT",
+          "last_update_time": "2020-08-30T09:00:01.000Z"
+        },
+        {
+          "network_reference": "200830BANABEBBGXXX0395000005",
+          "message_name_identification": "202COV",
+          "business_service": "001",
+          "tracker_event_type": "COPT",
+          "valid": true,
+          "instruction_identification": "def456",
+          "end_to_end_identification": "abc123",
+          "transaction_status": "ACSP",
+          "transaction_status_reason": "G000",
+          "return": false,
+          "settlement_method": "INDA",
+          "from": "BANABEBBXXX",
+          "to": "BANBUS33XXX",
+          "cover_parties": {
+            "debtor": "BANABEBBXXX",
+            "debtor_agent": "BANBUS33XXX",
+            "creditor_agent": "BANCUS33XXX",
+            "creditor": "BANDJPJTXXX"
+          },
+          "sender_acknowledgement_receipt": "2020-08-30T09:05:00.000Z",
+          "received_date": "2020-08-30T09:05:01.000Z",
+          "interbank_settlement_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "interbank_settlement_date": "2020-08-30T00:00:00.000Z",
+          "last_update_time": "2020-08-30T09:05:01.000Z"
+        },
+        {
+          "network_reference": "200830BANUS33GXXX0033000008",
+          "message_name_identification": "202COV",
+          "business_service": "001",
+          "tracker_event_type": "COPT",
+          "valid": true,
+          "instruction_identification": "ghi789",
+          "end_to_end_identification": "abc123",
+          "transaction_status": "ACSP",
+          "transaction_status_reason": "G000",
+          "return": false,
+          "settlement_method": "CLRG",
+          "clearing_system": "FDW",
+          "from": "BANBUS33XXX",
+          "to": "BANCUS33XXX",
+          "cover_parties": {
+            "debtor": "BANABEBBXXX",
+            "debtor_agent": "BANBUS33XXX",
+            "creditor_agent": "BANCUS33XXX",
+            "creditor": "BANDJPJTXXX"
+          },
+          "sender_acknowledgement_receipt": "2020-08-30T09:10:00.000Z",
+          "received_date": "2020-08-30T09:10:01.000Z",
+          "interbank_settlement_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "interbank_settlement_date": "2020-08-30T00:00:00.000Z",
+          "last_update_time": "2020-08-30T09:10:01.000Z"
+        },
+        {
+          "network_reference": "200830BANCUS33GXXX0001000006",
+          "message_name_identification": "299",
+          "business_service": "001",
+          "tracker_event_type": "COSU",
+          "valid": true,
+          "instruction_identification": "jkl000",
+          "transaction_status": "ACCC",
+          "return": false,
+          "funds_available": "2020-08-30T16:00:00.000Z",
+          "from": "BANCUS33XXX",
+          "to": "TRCKCHZZXXX",
+          "originator": "BANCUS33XXX",
+          "sender_acknowledgement_receipt": "2020-08-30T16:00:00.000Z",
+          "confirmed_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "last_update_time": "2020-08-30T16:00:00.000Z"
+        },
+        {
+          "network_reference": "200830BANDJPJTGXXX0033000456",
+          "message_name_identification": "199",
+          "business_service": "001",
+          "tracker_event_type": "CTSU",
+          "valid": true,
+          "instruction_identification": "mno000",
+          "transaction_status": "ACCC",
+          "return": false,
+          "funds_available": "2020-08-30T17:00:00.000Z",
+          "from": "BANDJPJTXXX",
+          "to": "TRCKCHZZXXX",
+          "originator": "BANDJPJTXXX",
+          "sender_acknowledgement_receipt": "2020-08-30T17:00:00.000Z",
+          "confirmed_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "last_update_time": "2020-08-30T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "uetr": "54ed4827-7b6f-4491-a06f-b548d5a7512e",
+      "transaction_status": "ACCC",
+      "initiation_time": "2020-08-30T09:00:00.000Z",
+      "completion_time": "2020-08-30T17:00:00.000Z",
+      "last_update_time": "2020-08-30T17:00:00.000Z",
+      "payment_event": [
+        {
+          "network_reference": "200830BANABEBBGXX0003000007",
+          "message_name_identification": "202",
+          "business_service": "004",
+          "tracker_event_type": "FTPT",
+          "valid": true,
+          "instruction_identification": "123",
+          "end_to_end_identification": "456",
+          "transaction_status": "ACSP",
+          "transaction_status_reason": "G000",
+          "return": false,
+          "settlement_method": "INDA",
+          "from": "BANABEBBXXX",
+          "to": "BANBUS33XXX",
+          "serial_parties": {
+            "debtor": "BANABEBBXXX",
+            "debtor_agent": "BANBUS33XXX",
+            "creditor_agent": "BANCUS33XXX",
+            "creditor": "BANDJPJTXXX",
+            "creditor_account": {
+              "identification": "Acct123"
+            }
+          },
+          "sender_acknowledgement_receipt": "2020-08-30T09:00:01.000Z",
+          "received_date": "2020-08-30T09:00:02.000Z",
+          "interbank_settlement_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "interbank_settlement_date": "2020-08-30T00:00:00.000Z",
+          "last_update_time": "2020-08-30T09:00:03.000Z"
+        },
+        {
+          "network_reference": "200830BANBUS33GXX0124004598",
+          "message_name_identification": "299",
+          "business_service": "004",
+          "tracker_event_type": "FTSU",
+          "valid": true,
+          "instruction_identification": "statusabc123",
+          "end_to_end_identification": "456",
+          "transaction_status": "ACSP",
+          "transaction_status_reason": "G000",
+          "return": false,
+          "forwarded_to_agent": "BANCUS33XXX",
+          "settlement_method": "INDA",
+          "clearing_system": "FDW",
+          "from": "BANBUS33XXX",
+          "to": "TRCKCHZZXXX",
+          "originator": "BANBUS33XXX",
+          "sender_acknowledgement_receipt": "2020-08-30T09:00:04.000Z",
+          "confirmed_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "last_update_time": "2020-08-30T09:00:05.000Z"
+        },
+        {
+          "network_reference": "200830BANABEBBGXX003000009",
+          "message_name_identification": "299",
+          "business_service": "004",
+          "tracker_event_type": "FTSU",
+          "valid": true,
+          "instruction_identification": "statusabc123",
+          "end_to_end_identification": "456",
+          "transaction_status": "ACCC",
+          "return": false,
+          "funds_available": "2020-08-30T09:00:05.000Z",
+          "from": "BANCUS33XXX",
+          "to": "TRCKCHZZXXX",
+          "originator": "BANCUS33XXX",
+          "sender_acknowledgement_receipt": "2020-08-30T09:00:04.000Z",
+          "confirmed_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "last_update_time": "2020-08-30T09:00:05.000Z"
+        }
+      ]
+    },
+    {
+      "uetr": "54ed4827-7b6f-4491-a06f-b548d5a7512d",
+      "transaction_status": "RJCT",
+      "transaction_status_reason": "FOCR",
+      "cancellation_status": {
+        "transaction_cancellation_status": "CNCL"
+      },
+      "cases": "1",
+      "initiation_time": "2020-08-30T09:00:00.000Z",
+      "completion_time": "2020-08-30T17:00:00.000Z",
+      "last_update_time": "2020-08-30T17:00:00.000Z",
+      "payment_event": [
+        {
+          "network_reference": "abc",
+          "message_name_identification": "103",
+          "business_service": "001",
+          "tracker_event_type": "CTPT",
+          "valid": true,
+          "instruction_identification": "abc123",
+          "transaction_status": "ACSP",
+          "transaction_status_reason": "G000",
+          "return": false,
+          "settlement_method": "INDA",
+          "from": "BANABEBBXXX",
+          "to": "BANBUS33XXX",
+          "serial_parties": {
+            "debtor_agent": "BANABEBB",
+            "creditor_agent": "BANCDEFF"
+          },
+          "sender_acknowledgement_receipt": "2020-08-30T09:00:01.000Z",
+          "received_date": "2020-08-30T09:00:02.000Z",
+          "instructed_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "interbank_settlement_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "interbank_settlement_date": "2020-08-30T00:00:00.000Z",
+          "charge_bearer": "DEBT",
+          "last_update_time": "2020-08-30T09:00:03.000Z"
+        },
+        {
+          "network_reference": "def",
+          "message_name_identification": "199",
+          "business_service": "001",
+          "tracker_event_type": "CTSU",
+          "valid": true,
+          "instruction_identification": "statusabc123",
+          "transaction_status": "ACSP",
+          "transaction_status_reason": "G000",
+          "return": false,
+          "forwarded_to_agent": "BANCDEFF",
+          "settlement_method": "INDA",
+          "from": "BANBUS33XXX",
+          "to": "TRCKCHZZXXX",
+          "originator": "BANBUS33",
+          "sender_acknowledgement_receipt": "2020-08-30T09:00:04.000Z",
+          "confirmed_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "charge_bearer": "DEBT",
+          "last_update_time": "2020-08-30T09:00:05.000Z"
+        },
+        {
+          "network_reference": "ghi",
+          "message_name_identification": "192",
+          "business_service": "002",
+          "tracker_event_type": "CTCA",
+          "valid": true,
+          "case_identification": "123",
+          "original_instruction_identification": "abc123",
+          "return": false,
+          "cancellation_request_details": {
+            "cancellation_reason_information": "DUPL",
+            "indemnity_agreement": "INDM"
+          },
+          "from": "BANABEBBXXX",
+          "to": "TRCKCHZZXXX",
+          "sender_acknowledgement_receipt": "2020-08-30T10:00:00.000Z",
+          "last_update_time": "2020-08-30T10:00:00.000Z"
+        },
+        {
+          "network_reference": "jkl",
+          "message_name_identification": "192",
+          "business_service": "002",
+          "tracker_event_type": "CTCA",
+          "valid": true,
+          "case_identification": "123",
+          "original_instruction_identification": "def567",
+          "return": false,
+          "cancellation_request_details": {
+            "cancellation_reason_information": "DUPL",
+            "indemnity_agreement": "INDM"
+          },
+          "from": "TRCKCHZZXXX",
+          "to": "BANCDEFFXXX",
+          "sender_acknowledgement_receipt": "2020-08-30T10:00:01.000Z",
+          "interbank_settlement_amount": {
+            "currency": "USD",
+            "amount": "1000.00"
+          },
+          "interbank_settlement_date": "2020-08-30T00:00:00.000Z",
+          "last_update_time": "2020-08-30T10:00:05.000Z"
+        },
+        {
+          "network_reference": "mno",
+          "message_name_identification": "199",
+          "business_service": "002",
+          "tracker_event_type": "CTTS",
+          "valid": true,
+          "instruction_identification": "trackref001",
+          "case_identification": "123",
+          "return": false,
+          "cancellation_request_tracking_status": "S000",
+          "from": "TRCKCHZZXXX",
+          "to": "BANABEBBXXX",
+          "originator": "TRCKCHZZ",
+          "sender_acknowledgement_receipt": "2020-08-30T10:00:01.000Z",
+          "last_update_time": "2020-01-01T10:00:05.000Z"
+        },
+        {
+          "network_reference": "pqr",
+          "message_name_identification": "199",
+          "business_service": "002",
+          "tracker_event_type": "CTTS",
+          "valid": true,
+          "instruction_identification": "trackref002",
+          "case_identification": "123",
+          "return": false,
+          "cancellation_request_tracking_status": "S001",
+          "from": "TRCKCHZZXXX",
+          "to": "BANABEBBXXX",
+          "originator": "TRCKCHZZ",
+          "sender_acknowledgement_receipt": "2020-08-30T10:00:02.000Z",
+          "last_update_time": "2020-08-30T10:00:06.000Z"
+        },
+        {
+          "network_reference": "stv",
+          "message_name_identification": "199",
+          "business_service": "002",
+          "tracker_event_type": "CTTS",
+          "valid": true,
+          "instruction_identification": "trackref003",
+          "case_identification": "123",
+          "return": false,
+          "cancellation_request_tracking_status": "S002",
+          "from": "TRCKCHZZXXX",
+          "to": "BANABEBBXXX",
+          "originator": "TRCKCHZZ",
+          "sender_acknowledgement_receipt": "2020-08-30T10:00:03.000Z",
+          "last_update_time": "2020-08-30T10:00:07.000Z"
+        },
+        {
+          "network_reference": "wyy",
+          "message_name_identification": "199",
+          "business_service": "002",
+          "tracker_event_type": "CTTS",
+          "valid": true,
+          "instruction_identification": "trackref004",
+          "case_identification": "123",
+          "return": false,
+          "cancellation_request_tracking_status": "S003",
+          "from": "TRCKCHZZXXX",
+          "to": "BANABEBBXXX",
+          "originator": "TRCKCHZZ",
+          "sender_acknowledgement_receipt": "2020-08-30T10:00:04.000Z",
+          "last_update_time": "2020-08-30T10:00:08.000Z"
+        },
+        {
+          "network_reference": "zab",
+          "message_name_identification": "199",
+          "business_service": "002",
+          "tracker_event_type": "CTTS",
+          "valid": true,
+          "instruction_identification": "trackref005",
+          "case_identification": "123",
+          "return": false,
+          "cancellation_request_tracking_status": "S004",
+          "from": "TRCKCHZZXXX",
+          "to": "BANABEBBXXX",
+          "originator": "TRCKCHZZ",
+          "sender_acknowledgement_receipt": "2020-08-30T10:00:05.000Z",
+          "last_update_time": "2020-08-30T10:00:09.000Z"
+        },
+        {
+          "network_reference": "zac",
+          "message_name_identification": "196",
+          "business_service": "002",
+          "tracker_event_type": "CTCR",
+          "valid": true,
+          "case_identification": "123",
+          "assignment_identification": "responseref",
+          "return": false,
+          "cancellation_response_details": {
+            "investigation_execution_status": "CNCL"
+          },
+          "from": "BANCDEFFXXX",
+          "to": "TRCKCHZZXXX",
+          "originator": "BANCDEFF",
+          "sender_acknowledgement_receipt": "2020-01-01T11:00:00.000Z",
+          "last_update_time": "2020-08-30T11:00:00.000Z"
+        },
+        {
+          "network_reference": "zad",
+          "message_name_identification": "196",
+          "business_service": "002",
+          "tracker_event_type": "CTCR",
+          "valid": true,
+          "case_identification": "123",
+          "assignment_identification": "responseref",
+          "return": false,
+          "cancellation_response_details": {
+            "investigation_execution_status": "CNCL"
+          },
+          "from": "TRCKCHZZXXX",
+          "to": "BANABEBBXXX",
+          "originator": "TRCKCHZZ",
+          "sender_acknowledgement_receipt": "2020-01-01T11:00:01.000Z",
+          "last_update_time": "2020-08-30T11:00:05.000Z"
+        }
+      ]
+    }
+  ],
+  "next": "cGFzcyB0aGlzIHZhbHVlIGluIHF1ZXJ5IHBhcmFtIGZvciBtb3JlIHZhbHVlcw=="
+}

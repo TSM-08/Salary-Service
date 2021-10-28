@@ -1,0 +1,13 @@
+{
+  "query": {
+    "query_string": {
+      "query": "_id:rfile_43 or _id:rfile_44",
+      "default_field": "content"
+    }
+  }
+},
+{
+      "query" : {
+        "match" : {"rec_status":"ERR"}
+    }
+}

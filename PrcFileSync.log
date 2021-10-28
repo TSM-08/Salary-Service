@@ -1,0 +1,8 @@
+Parameters:
+Config file: PrcFileSync.ini
+Log file: PrcFileSync.log
+
+Service PrcFileSync started... 
+   at 2020-11-08 23:09:22.086237 
+
+Unexpected error: Section postgresql not found in the PrcFileSync.ini file

@@ -1,0 +1,890 @@
+[2020-12-06 17:09:41.305084] Service <ProcessLine2> started... 
+
+Parameters:
+Config file -> INI/ProcessLine2.ini
+Log file    -> LOG/ProcessLine2.log
+
+Initialize section [postgresql]... OK
+Initialize section [fileparams]... OK
+Initialize section [elasticsrh]... OK
+
+Elastic enabled: NO (localhost:9200)
+File mask is ['.*[24680]\\.json$']
+[2020-12-06 17:09:41.308084] Start watcher for folder: FLOW/LINES/
+
+[2020-12-06 17:09:56.936352] File detected: FLOW/LINES/ln_2.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 295, 'file_id': 1, 'line_id': 2, 'act_date': '2020-12-06T17:09:57.090352', 'rec_date': '2020-12-06T17:09:57.09093', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:57.143350] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:57.145362] File detected: FLOW/LINES/ln_4.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 297, 'file_id': 1, 'line_id': 4, 'act_date': '2020-12-06T17:09:57.28535', 'rec_date': '2020-12-06T17:09:57.285483', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:57.338354] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:57.342355] File detected: FLOW/LINES/ln_6.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 299, 'file_id': 1, 'line_id': 6, 'act_date': '2020-12-06T17:09:57.476352', 'rec_date': '2020-12-06T17:09:57.477371', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:57.525352] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:57.526351] File detected: FLOW/LINES/ln_8.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 301, 'file_id': 1, 'line_id': 8, 'act_date': '2020-12-06T17:09:57.762353', 'rec_date': '2020-12-06T17:09:57.76323', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:57.812353] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:57.816353] File detected: FLOW/LINES/ln_10.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 303, 'file_id': 1, 'line_id': 10, 'act_date': '2020-12-06T17:09:57.947368', 'rec_date': '2020-12-06T17:09:57.948002', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:57.997353] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:58.002353] File detected: FLOW/LINES/ln_12.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 305, 'file_id': 1, 'line_id': 12, 'act_date': '2020-12-06T17:09:58.136352', 'rec_date': '2020-12-06T17:09:58.136664', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:58.183352] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:58.189355] File detected: FLOW/LINES/ln_14.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 307, 'file_id': 2, 'line_id': 14, 'act_date': '2020-12-06T17:09:58.319367', 'rec_date': '2020-12-06T17:09:58.319758', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:58.369354] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:58.378354] File detected: FLOW/LINES/ln_16.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 309, 'file_id': 2, 'line_id': 16, 'act_date': '2020-12-06T17:09:58.514354', 'rec_date': '2020-12-06T17:09:58.514981', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:58.571353] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:58.578354] File detected: FLOW/LINES/ln_18.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 311, 'file_id': 2, 'line_id': 18, 'act_date': '2020-12-06T17:09:58.709352', 'rec_date': '2020-12-06T17:09:58.710058', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:58.759353] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:58.766354] File detected: FLOW/LINES/ln_20.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 313, 'file_id': 2, 'line_id': 20, 'act_date': '2020-12-06T17:09:58.901352', 'rec_date': '2020-12-06T17:09:58.901726', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:58.950354] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:58.956356] File detected: FLOW/LINES/ln_22.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 315, 'file_id': 2, 'line_id': 22, 'act_date': '2020-12-06T17:09:59.092354', 'rec_date': '2020-12-06T17:09:59.092487', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:59.142354] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:59.150353] File detected: FLOW/LINES/ln_24.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 317, 'file_id': 2, 'line_id': 24, 'act_date': '2020-12-06T17:09:59.293354', 'rec_date': '2020-12-06T17:09:59.293736', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:59.350354] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:59.356357] File detected: FLOW/LINES/ln_26.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 319, 'file_id': 2, 'line_id': 26, 'act_date': '2020-12-06T17:09:59.495355', 'rec_date': '2020-12-06T17:09:59.495669', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:59.652358] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:59.664358] File detected: FLOW/LINES/ln_28.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 321, 'file_id': 2, 'line_id': 28, 'act_date': '2020-12-06T17:09:59.832355', 'rec_date': '2020-12-06T17:09:59.833305', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:09:59.979355] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:09:59.985360] File detected: FLOW/LINES/ln_30.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 324, 'file_id': 2, 'line_id': 30, 'act_date': '2020-12-06T17:10:00.124358', 'rec_date': '2020-12-06T17:10:00.124735', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:00.198357] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:00.205359] File detected: FLOW/LINES/ln_32.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 326, 'file_id': 2, 'line_id': 32, 'act_date': '2020-12-06T17:10:00.342359', 'rec_date': '2020-12-06T17:10:00.343448', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:00.407357] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:00.417361] File detected: FLOW/LINES/ln_34.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 328, 'file_id': 2, 'line_id': 34, 'act_date': '2020-12-06T17:10:00.559357', 'rec_date': '2020-12-06T17:10:00.559517', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:00.618358] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:00.626359] File detected: FLOW/LINES/ln_36.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 330, 'file_id': 2, 'line_id': 36, 'act_date': '2020-12-06T17:10:00.763356', 'rec_date': '2020-12-06T17:10:00.763789', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:00.813356] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:00.820358] File detected: FLOW/LINES/ln_38.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 332, 'file_id': 2, 'line_id': 38, 'act_date': '2020-12-06T17:10:00.952357', 'rec_date': '2020-12-06T17:10:00.953082', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:01.004358] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:01.010357] File detected: FLOW/LINES/ln_40.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 334, 'file_id': 2, 'line_id': 40, 'act_date': '2020-12-06T17:10:01.145358', 'rec_date': '2020-12-06T17:10:01.145886', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:01.193357] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:01.200360] File detected: FLOW/LINES/ln_42.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 336, 'file_id': 2, 'line_id': 42, 'act_date': '2020-12-06T17:10:01.341358', 'rec_date': '2020-12-06T17:10:01.341779', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:01.398358] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:01.405358] File detected: FLOW/LINES/ln_44.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 338, 'file_id': 2, 'line_id': 44, 'act_date': '2020-12-06T17:10:01.53936', 'rec_date': '2020-12-06T17:10:01.540119', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:01.595359] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:01.599361] File detected: FLOW/LINES/ln_46.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 340, 'file_id': 2, 'line_id': 46, 'act_date': '2020-12-06T17:10:01.738357', 'rec_date': '2020-12-06T17:10:01.73926', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:01.794360] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:01.803359] File detected: FLOW/LINES/ln_48.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 342, 'file_id': 2, 'line_id': 48, 'act_date': '2020-12-06T17:10:01.936358', 'rec_date': '2020-12-06T17:10:01.937032', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:01.983357] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:01.991359] File detected: FLOW/LINES/ln_50.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 344, 'file_id': 2, 'line_id': 50, 'act_date': '2020-12-06T17:10:02.123358', 'rec_date': '2020-12-06T17:10:02.123451', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:02.168359] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:02.174361] File detected: FLOW/LINES/ln_52.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 346, 'file_id': 2, 'line_id': 52, 'act_date': '2020-12-06T17:10:02.41036', 'rec_date': '2020-12-06T17:10:02.411315', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:02.477360] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:02.484360] File detected: FLOW/LINES/ln_54.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 349, 'file_id': 2, 'line_id': 54, 'act_date': '2020-12-06T17:10:02.621359', 'rec_date': '2020-12-06T17:10:02.622414', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:02.682360] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:02.690360] File detected: FLOW/LINES/ln_56.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 351, 'file_id': 2, 'line_id': 56, 'act_date': '2020-12-06T17:10:02.82636', 'rec_date': '2020-12-06T17:10:02.827161', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:02.883359] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:02.894362] File detected: FLOW/LINES/ln_58.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 353, 'file_id': 2, 'line_id': 58, 'act_date': '2020-12-06T17:10:03.028362', 'rec_date': '2020-12-06T17:10:03.028758', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:03.088360] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:03.094361] File detected: FLOW/LINES/ln_60.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 355, 'file_id': 2, 'line_id': 60, 'act_date': '2020-12-06T17:10:03.234362', 'rec_date': '2020-12-06T17:10:03.235361', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:03.302360] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:03.309361] File detected: FLOW/LINES/ln_62.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 357, 'file_id': 2, 'line_id': 62, 'act_date': '2020-12-06T17:10:03.446362', 'rec_date': '2020-12-06T17:10:03.447319', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:03.505361] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:03.512372] File detected: FLOW/LINES/ln_64.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 359, 'file_id': 2, 'line_id': 64, 'act_date': '2020-12-06T17:10:03.650361', 'rec_date': '2020-12-06T17:10:03.650852', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:03.709361] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:03.719361] File detected: FLOW/LINES/ln_66.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 361, 'file_id': 2, 'line_id': 66, 'act_date': '2020-12-06T17:10:03.869362', 'rec_date': '2020-12-06T17:10:03.8695', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:03.928363] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:03.936364] File detected: FLOW/LINES/ln_68.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 363, 'file_id': 2, 'line_id': 68, 'act_date': '2020-12-06T17:10:04.07036', 'rec_date': '2020-12-06T17:10:04.071269', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:04.120362] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:04.127373] File detected: FLOW/LINES/ln_70.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 365, 'file_id': 2, 'line_id': 70, 'act_date': '2020-12-06T17:10:04.266364', 'rec_date': '2020-12-06T17:10:04.26723', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:04.326363] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:04.336364] File detected: FLOW/LINES/ln_72.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 367, 'file_id': 2, 'line_id': 72, 'act_date': '2020-12-06T17:10:04.472362', 'rec_date': '2020-12-06T17:10:04.472613', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:04.521363] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:04.527363] File detected: FLOW/LINES/ln_74.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 369, 'file_id': 2, 'line_id': 74, 'act_date': '2020-12-06T17:10:04.669364', 'rec_date': '2020-12-06T17:10:04.669504', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:04.726362] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:04.735364] File detected: FLOW/LINES/ln_76.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 371, 'file_id': 2, 'line_id': 76, 'act_date': '2020-12-06T17:10:04.870362', 'rec_date': '2020-12-06T17:10:04.870708', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:04.924363] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:04.931366] File detected: FLOW/LINES/ln_78.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 373, 'file_id': 2, 'line_id': 78, 'act_date': '2020-12-06T17:10:05.066362', 'rec_date': '2020-12-06T17:10:05.067323', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:05.113363] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:05.119363] File detected: FLOW/LINES/ln_80.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 375, 'file_id': 2, 'line_id': 80, 'act_date': '2020-12-06T17:10:05.260363', 'rec_date': '2020-12-06T17:10:05.261451', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:05.322363] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:05.329366] File detected: FLOW/LINES/ln_82.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 377, 'file_id': 2, 'line_id': 82, 'act_date': '2020-12-06T17:10:05.471364', 'rec_date': '2020-12-06T17:10:05.471857', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:05.544364] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:05.552365] File detected: FLOW/LINES/ln_84.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 379, 'file_id': 2, 'line_id': 84, 'act_date': '2020-12-06T17:10:05.687366', 'rec_date': '2020-12-06T17:10:05.687752', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:05.747365] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:05.754364] File detected: FLOW/LINES/ln_86.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 381, 'file_id': 2, 'line_id': 86, 'act_date': '2020-12-06T17:10:05.894365', 'rec_date': '2020-12-06T17:10:05.894823', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:05.942364] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:05.948364] File detected: FLOW/LINES/ln_88.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 383, 'file_id': 2, 'line_id': 88, 'act_date': '2020-12-06T17:10:06.087365', 'rec_date': '2020-12-06T17:10:06.088429', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:06.251365] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:06.257367] File detected: FLOW/LINES/ln_90.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 385, 'file_id': 2, 'line_id': 90, 'act_date': '2020-12-06T17:10:06.395368', 'rec_date': '2020-12-06T17:10:06.396423', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:06.451365] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:06.457367] File detected: FLOW/LINES/ln_92.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 387, 'file_id': 2, 'line_id': 92, 'act_date': '2020-12-06T17:10:06.598367', 'rec_date': '2020-12-06T17:10:06.599169', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:06.654366] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:06.660366] File detected: FLOW/LINES/ln_94.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 389, 'file_id': 2, 'line_id': 94, 'act_date': '2020-12-06T17:10:06.791364', 'rec_date': '2020-12-06T17:10:06.792126', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:06.852367] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:06.859367] File detected: FLOW/LINES/ln_96.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 391, 'file_id': 2, 'line_id': 96, 'act_date': '2020-12-06T17:10:06.998368', 'rec_date': '2020-12-06T17:10:06.998482', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:07.051368] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:07.061367] File detected: FLOW/LINES/ln_98.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 394, 'file_id': 2, 'line_id': 98, 'act_date': '2020-12-06T17:10:07.302368', 'rec_date': '2020-12-06T17:10:07.302492', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:07.378367] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:07.393368] File detected: FLOW/LINES/ln_100.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 396, 'file_id': 2, 'line_id': 100, 'act_date': '2020-12-06T17:10:07.530368', 'rec_date': '2020-12-06T17:10:07.531087', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:07.610368] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:07.621370] File detected: FLOW/LINES/ln_102.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 398, 'file_id': 2, 'line_id': 102, 'act_date': '2020-12-06T17:10:07.754366', 'rec_date': '2020-12-06T17:10:07.754507', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:07.952368] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:07.958370] File detected: FLOW/LINES/ln_104.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 400, 'file_id': 2, 'line_id': 104, 'act_date': '2020-12-06T17:10:08.098372', 'rec_date': '2020-12-06T17:10:08.099009', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:08.160368] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:08.169368] File detected: FLOW/LINES/ln_106.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 402, 'file_id': 2, 'line_id': 106, 'act_date': '2020-12-06T17:10:08.305368', 'rec_date': '2020-12-06T17:10:08.306169', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:08.373370] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:08.381373] File detected: FLOW/LINES/ln_108.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 404, 'file_id': 2, 'line_id': 108, 'act_date': '2020-12-06T17:10:08.520368', 'rec_date': '2020-12-06T17:10:08.520883', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:08.578370] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:08.586370] File detected: FLOW/LINES/ln_110.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 406, 'file_id': 2, 'line_id': 110, 'act_date': '2020-12-06T17:10:08.721369', 'rec_date': '2020-12-06T17:10:08.722291', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:08.782369] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:08.790369] File detected: FLOW/LINES/ln_112.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 409, 'file_id': 2, 'line_id': 112, 'act_date': '2020-12-06T17:10:09.029372', 'rec_date': '2020-12-06T17:10:09.029553', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:09.086370] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:09.093370] File detected: FLOW/LINES/ln_114.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 411, 'file_id': 2, 'line_id': 114, 'act_date': '2020-12-06T17:10:09.23837', 'rec_date': '2020-12-06T17:10:09.238544', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:09.300369] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:09.306372] File detected: FLOW/LINES/ln_116.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 413, 'file_id': 2, 'line_id': 116, 'act_date': '2020-12-06T17:10:09.44737', 'rec_date': '2020-12-06T17:10:09.447781', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:09.630373] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:09.639372] File detected: FLOW/LINES/ln_118.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 415, 'file_id': 2, 'line_id': 118, 'act_date': '2020-12-06T17:10:09.770369', 'rec_date': '2020-12-06T17:10:09.771345', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:09.820370] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:09.829375] File detected: FLOW/LINES/ln_120.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 417, 'file_id': 2, 'line_id': 120, 'act_date': '2020-12-06T17:10:10.001372', 'rec_date': '2020-12-06T17:10:10.002377', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:10.058370] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:10.065371] File detected: FLOW/LINES/ln_122.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 419, 'file_id': 2, 'line_id': 122, 'act_date': '2020-12-06T17:10:10.199375', 'rec_date': '2020-12-06T17:10:10.200344', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:10.348371] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:10.354372] File detected: FLOW/LINES/ln_124.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 422, 'file_id': 2, 'line_id': 124, 'act_date': '2020-12-06T17:10:10.485369', 'rec_date': '2020-12-06T17:10:10.486056', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:10.531375] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:10.537371] File detected: FLOW/LINES/ln_126.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 424, 'file_id': 2, 'line_id': 126, 'act_date': '2020-12-06T17:10:10.66837', 'rec_date': '2020-12-06T17:10:10.669352', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:10.715371] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:10.721383] File detected: FLOW/LINES/ln_128.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 426, 'file_id': 2, 'line_id': 128, 'act_date': '2020-12-06T17:10:10.853386', 'rec_date': '2020-12-06T17:10:10.853623', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:10.899370] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:10.905373] File detected: FLOW/LINES/ln_130.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 428, 'file_id': 2, 'line_id': 130, 'act_date': '2020-12-06T17:10:11.036371', 'rec_date': '2020-12-06T17:10:11.036869', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:11.082372] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:11.088372] File detected: FLOW/LINES/ln_132.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 430, 'file_id': 2, 'line_id': 132, 'act_date': '2020-12-06T17:10:11.222372', 'rec_date': '2020-12-06T17:10:11.222932', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:11.272372] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:11.279375] File detected: FLOW/LINES/ln_134.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 432, 'file_id': 2, 'line_id': 134, 'act_date': '2020-12-06T17:10:11.409371', 'rec_date': '2020-12-06T17:10:11.409914', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:11.456371] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:11.463372] File detected: FLOW/LINES/ln_136.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 434, 'file_id': 2, 'line_id': 136, 'act_date': '2020-12-06T17:10:11.601372', 'rec_date': '2020-12-06T17:10:11.601971', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:11.649372] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:11.658373] File detected: FLOW/LINES/ln_138.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 436, 'file_id': 2, 'line_id': 138, 'act_date': '2020-12-06T17:10:11.790373', 'rec_date': '2020-12-06T17:10:11.791094', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:11.837372] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:11.844373] File detected: FLOW/LINES/ln_140.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 438, 'file_id': 2, 'line_id': 140, 'act_date': '2020-12-06T17:10:11.981372', 'rec_date': '2020-12-06T17:10:11.982028', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:12.034375] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:12.040380] File detected: FLOW/LINES/ln_142.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 440, 'file_id': 2, 'line_id': 142, 'act_date': '2020-12-06T17:10:12.188373', 'rec_date': '2020-12-06T17:10:12.188771', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:12.340372] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:12.348374] File detected: FLOW/LINES/ln_144.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 442, 'file_id': 2, 'line_id': 144, 'act_date': '2020-12-06T17:10:12.480567', 'rec_date': '2020-12-06T17:10:12.481019', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:12.527566] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:12.534566] File detected: FLOW/LINES/ln_146.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 444, 'file_id': 2, 'line_id': 146, 'act_date': '2020-12-06T17:10:12.666567', 'rec_date': '2020-12-06T17:10:12.667034', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:12.710569] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:12.714569] File detected: FLOW/LINES/ln_148.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 446, 'file_id': 2, 'line_id': 148, 'act_date': '2020-12-06T17:10:12.846567', 'rec_date': '2020-12-06T17:10:12.847397', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:12.893579] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:12.900565] File detected: FLOW/LINES/ln_150.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 448, 'file_id': 2, 'line_id': 150, 'act_date': '2020-12-06T17:10:13.030566', 'rec_date': '2020-12-06T17:10:13.031187', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:13.075566] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:13.084569] File detected: FLOW/LINES/ln_152.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 450, 'file_id': 2, 'line_id': 152, 'act_date': '2020-12-06T17:10:13.22357', 'rec_date': '2020-12-06T17:10:13.224513', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:13.279568] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:13.285566] File detected: FLOW/LINES/ln_154.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 453, 'file_id': 2, 'line_id': 154, 'act_date': '2020-12-06T17:10:13.523567', 'rec_date': '2020-12-06T17:10:13.523729', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:13.573567] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:13.582570] File detected: FLOW/LINES/ln_156.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 455, 'file_id': 2, 'line_id': 156, 'act_date': '2020-12-06T17:10:13.716567', 'rec_date': '2020-12-06T17:10:13.717464', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:13.865567] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:13.872567] File detected: FLOW/LINES/ln_158.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 457, 'file_id': 2, 'line_id': 158, 'act_date': '2020-12-06T17:10:14.002597', 'rec_date': '2020-12-06T17:10:14.003622', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:14.051572] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:14.057570] File detected: FLOW/LINES/ln_160.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 459, 'file_id': 2, 'line_id': 160, 'act_date': '2020-12-06T17:10:14.188599', 'rec_date': '2020-12-06T17:10:14.189655', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:14.238568] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:14.246571] File detected: FLOW/LINES/ln_162.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 461, 'file_id': 2, 'line_id': 162, 'act_date': '2020-12-06T17:10:14.38257', 'rec_date': '2020-12-06T17:10:14.38278', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:14.434568] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:14.440570] File detected: FLOW/LINES/ln_164.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 463, 'file_id': 2, 'line_id': 164, 'act_date': '2020-12-06T17:10:14.573567', 'rec_date': '2020-12-06T17:10:14.573878', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:14.718568] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:14.726570] File detected: FLOW/LINES/ln_166.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 465, 'file_id': 2, 'line_id': 166, 'act_date': '2020-12-06T17:10:14.856568', 'rec_date': '2020-12-06T17:10:14.85755', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:14.908567] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:14.917575] File detected: FLOW/LINES/ln_168.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 467, 'file_id': 2, 'line_id': 168, 'act_date': '2020-12-06T17:10:15.046599', 'rec_date': '2020-12-06T17:10:15.04772', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:15.094570] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:15.100572] File detected: FLOW/LINES/ln_170.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 469, 'file_id': 2, 'line_id': 170, 'act_date': '2020-12-06T17:10:15.232572', 'rec_date': '2020-12-06T17:10:15.23313', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:15.286569] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:15.293572] File detected: FLOW/LINES/ln_172.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 471, 'file_id': 2, 'line_id': 172, 'act_date': '2020-12-06T17:10:15.422573', 'rec_date': '2020-12-06T17:10:15.423123', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:15.475568] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:15.486571] File detected: FLOW/LINES/ln_174.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 473, 'file_id': 2, 'line_id': 174, 'act_date': '2020-12-06T17:10:15.621572', 'rec_date': '2020-12-06T17:10:15.622588', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:15.676570] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:15.685571] File detected: FLOW/LINES/ln_176.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 475, 'file_id': 2, 'line_id': 176, 'act_date': '2020-12-06T17:10:15.817575', 'rec_date': '2020-12-06T17:10:15.818559', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:15.869573] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:15.876571] File detected: FLOW/LINES/ln_178.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 477, 'file_id': 2, 'line_id': 178, 'act_date': '2020-12-06T17:10:16.009572', 'rec_date': '2020-12-06T17:10:16.009897', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:16.062572] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:16.068574] File detected: FLOW/LINES/ln_180.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 479, 'file_id': 2, 'line_id': 180, 'act_date': '2020-12-06T17:10:16.201573', 'rec_date': '2020-12-06T17:10:16.201721', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:16.254573] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:16.264571] File detected: FLOW/LINES/ln_182.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 481, 'file_id': 2, 'line_id': 182, 'act_date': '2020-12-06T17:10:16.396571', 'rec_date': '2020-12-06T17:10:16.397644', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:16.445575] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:16.451575] File detected: FLOW/LINES/ln_184.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 483, 'file_id': 2, 'line_id': 184, 'act_date': '2020-12-06T17:10:16.586575', 'rec_date': '2020-12-06T17:10:16.587497', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:16.635595] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:16.642582] File detected: FLOW/LINES/ln_186.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 485, 'file_id': 2, 'line_id': 186, 'act_date': '2020-12-06T17:10:16.776572', 'rec_date': '2020-12-06T17:10:16.776896', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:16.828570] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:16.834570] File detected: FLOW/LINES/ln_188.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 487, 'file_id': 2, 'line_id': 188, 'act_date': '2020-12-06T17:10:16.967573', 'rec_date': '2020-12-06T17:10:16.967749', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:17.018572] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:17.025574] File detected: FLOW/LINES/ln_190.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 489, 'file_id': 2, 'line_id': 190, 'act_date': '2020-12-06T17:10:17.159572', 'rec_date': '2020-12-06T17:10:17.160556', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:17.210576] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:17.218572] File detected: FLOW/LINES/ln_192.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 491, 'file_id': 2, 'line_id': 192, 'act_date': '2020-12-06T17:10:17.354575', 'rec_date': '2020-12-06T17:10:17.354958', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:17.404572] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:17.412575] File detected: FLOW/LINES/ln_194.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 493, 'file_id': 2, 'line_id': 194, 'act_date': '2020-12-06T17:10:17.545573', 'rec_date': '2020-12-06T17:10:17.546645', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:17.590579] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:17.597573] File detected: FLOW/LINES/ln_196.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 495, 'file_id': 2, 'line_id': 196, 'act_date': '2020-12-06T17:10:17.731577', 'rec_date': '2020-12-06T17:10:17.731738', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:17.783572] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:17.789587] File detected: FLOW/LINES/ln_198.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 497, 'file_id': 2, 'line_id': 198, 'act_date': '2020-12-06T17:10:17.923605', 'rec_date': '2020-12-06T17:10:17.92466', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:17.970575] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:17.977573] File detected: FLOW/LINES/ln_200.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 499, 'file_id': 2, 'line_id': 200, 'act_date': '2020-12-06T17:10:18.111573', 'rec_date': '2020-12-06T17:10:18.112157', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:18.156590] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:18.164574] File detected: FLOW/LINES/ln_202.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 501, 'file_id': 2, 'line_id': 202, 'act_date': '2020-12-06T17:10:18.301573', 'rec_date': '2020-12-06T17:10:18.302071', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:18.350574] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:18.356573] File detected: FLOW/LINES/ln_204.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 503, 'file_id': 2, 'line_id': 204, 'act_date': '2020-12-06T17:10:18.488605', 'rec_date': '2020-12-06T17:10:18.489541', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:18.535574] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:18.543574] File detected: FLOW/LINES/ln_206.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 505, 'file_id': 2, 'line_id': 206, 'act_date': '2020-12-06T17:10:18.679576', 'rec_date': '2020-12-06T17:10:18.680319', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:18.724583] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:18.733576] File detected: FLOW/LINES/ln_208.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 506, 'file_id': 2, 'line_id': 208, 'act_date': '2020-12-06T17:10:18.864574', 'rec_date': '2020-12-06T17:10:18.86481', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:18.917575] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:18.923586] File detected: FLOW/LINES/ln_210.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 508, 'file_id': 2, 'line_id': 210, 'act_date': '2020-12-06T17:10:19.057578', 'rec_date': '2020-12-06T17:10:19.058085', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:19.114574] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:19.120582] File detected: FLOW/LINES/ln_212.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 510, 'file_id': 2, 'line_id': 212, 'act_date': '2020-12-06T17:10:19.25458', 'rec_date': '2020-12-06T17:10:19.255213', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:19.404575] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:19.411575] File detected: FLOW/LINES/ln_214.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 513, 'file_id': 2, 'line_id': 214, 'act_date': '2020-12-06T17:10:19.544577', 'rec_date': '2020-12-06T17:10:19.545417', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:19.589574] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:19.595576] File detected: FLOW/LINES/ln_216.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 515, 'file_id': 2, 'line_id': 216, 'act_date': '2020-12-06T17:10:19.727577', 'rec_date': '2020-12-06T17:10:19.728032', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:19.775574] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:19.781578] File detected: FLOW/LINES/ln_218.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 517, 'file_id': 2, 'line_id': 218, 'act_date': '2020-12-06T17:10:19.914577', 'rec_date': '2020-12-06T17:10:19.914939', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:19.960606] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:19.967579] File detected: FLOW/LINES/ln_220.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 519, 'file_id': 2, 'line_id': 220, 'act_date': '2020-12-06T17:10:20.099578', 'rec_date': '2020-12-06T17:10:20.100034', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:20.146578] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:20.152577] File detected: FLOW/LINES/ln_222.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 521, 'file_id': 2, 'line_id': 222, 'act_date': '2020-12-06T17:10:20.284579', 'rec_date': '2020-12-06T17:10:20.285188', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:20.334578] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:20.340578] File detected: FLOW/LINES/ln_224.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 522, 'file_id': 2, 'line_id': 224, 'act_date': '2020-12-06T17:10:20.470581', 'rec_date': '2020-12-06T17:10:20.47124', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:20.521580] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:20.528581] File detected: FLOW/LINES/ln_226.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 524, 'file_id': 2, 'line_id': 226, 'act_date': '2020-12-06T17:10:20.658578', 'rec_date': '2020-12-06T17:10:20.658826', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:20.710577] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:20.716577] File detected: FLOW/LINES/ln_228.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 526, 'file_id': 2, 'line_id': 228, 'act_date': '2020-12-06T17:10:20.855579', 'rec_date': '2020-12-06T17:10:20.856515', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:20.902576] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:20.909577] File detected: FLOW/LINES/ln_230.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 528, 'file_id': 2, 'line_id': 230, 'act_date': '2020-12-06T17:10:21.043595', 'rec_date': '2020-12-06T17:10:21.044241', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:21.089589] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:21.095578] File detected: FLOW/LINES/ln_232.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 530, 'file_id': 2, 'line_id': 232, 'act_date': '2020-12-06T17:10:21.23158', 'rec_date': '2020-12-06T17:10:21.232137', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:21.281578] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:21.288581] File detected: FLOW/LINES/ln_234.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 532, 'file_id': 2, 'line_id': 234, 'act_date': '2020-12-06T17:10:21.420577', 'rec_date': '2020-12-06T17:10:21.421404', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:21.465577] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:21.471578] File detected: FLOW/LINES/ln_236.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 534, 'file_id': 2, 'line_id': 236, 'act_date': '2020-12-06T17:10:21.622104', 'rec_date': '2020-12-06T17:10:21.624059', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:21.653392] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:21.668987] File detected: FLOW/LINES/ln_238.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 536, 'file_id': 2, 'line_id': 238, 'act_date': '2020-12-06T17:10:21.822764', 'rec_date': '2020-12-06T17:10:21.824438', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:21.854045] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:21.869673] File detected: FLOW/LINES/ln_240.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 538, 'file_id': 2, 'line_id': 240, 'act_date': '2020-12-06T17:10:22.023327', 'rec_date': '2020-12-06T17:10:22.033994', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:22.072685] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:22.088312] File detected: FLOW/LINES/ln_242.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 540, 'file_id': 2, 'line_id': 242, 'act_date': '2020-12-06T17:10:22.223955', 'rec_date': '2020-12-06T17:10:22.231008', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:22.270838] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:22.286467] File detected: FLOW/LINES/ln_244.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 542, 'file_id': 2, 'line_id': 244, 'act_date': '2020-12-06T17:10:22.455779', 'rec_date': '2020-12-06T17:10:22.461593', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:22.502685] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:22.502685] File detected: FLOW/LINES/ln_246.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 544, 'file_id': 2, 'line_id': 246, 'act_date': '2020-12-06T17:10:22.640821', 'rec_date': '2020-12-06T17:10:22.652916', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:22.687666] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:22.703292] File detected: FLOW/LINES/ln_248.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 546, 'file_id': 2, 'line_id': 248, 'act_date': '2020-12-06T17:10:22.872609', 'rec_date': '2020-12-06T17:10:22.877413', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:22.927252] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:22.927252] File detected: FLOW/LINES/ln_250.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 548, 'file_id': 2, 'line_id': 250, 'act_date': '2020-12-06T17:10:23.072506', 'rec_date': '2020-12-06T17:10:23.079034', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:23.119354] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:23.119354] File detected: FLOW/LINES/ln_252.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 550, 'file_id': 2, 'line_id': 252, 'act_date': '2020-12-06T17:10:23.273054', 'rec_date': '2020-12-06T17:10:23.275124', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:23.319952] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:23.326463] File detected: FLOW/LINES/ln_254.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 552, 'file_id': 2, 'line_id': 254, 'act_date': '2020-12-06T17:10:23.473715', 'rec_date': '2020-12-06T17:10:23.474295', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:23.505009] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:23.520602] File detected: FLOW/LINES/ln_256.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 554, 'file_id': 2, 'line_id': 256, 'act_date': '2020-12-06T17:10:23.658729', 'rec_date': '2020-12-06T17:10:23.674182', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:23.721257] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:23.721257] File detected: FLOW/LINES/ln_258.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 556, 'file_id': 2, 'line_id': 258, 'act_date': '2020-12-06T17:10:23.874969', 'rec_date': '2020-12-06T17:10:23.875206', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:23.906248] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:23.906248] File detected: FLOW/LINES/ln_260.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 558, 'file_id': 2, 'line_id': 260, 'act_date': '2020-12-06T17:10:24.044309', 'rec_date': '2020-12-06T17:10:24.051163', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:24.092720] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:24.092720] File detected: FLOW/LINES/ln_262.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 560, 'file_id': 2, 'line_id': 262, 'act_date': '2020-12-06T17:10:24.228883', 'rec_date': '2020-12-06T17:10:24.240189', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:24.275771] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:24.275771] File detected: FLOW/LINES/ln_264.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 562, 'file_id': 2, 'line_id': 264, 'act_date': '2020-12-06T17:10:24.422945', 'rec_date': '2020-12-06T17:10:24.423499', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:24.460776] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:24.460776] File detected: FLOW/LINES/ln_266.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 564, 'file_id': 2, 'line_id': 266, 'act_date': '2020-12-06T17:10:24.608024', 'rec_date': '2020-12-06T17:10:24.609068', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:24.645828] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:24.645828] File detected: FLOW/LINES/ln_268.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 566, 'file_id': 2, 'line_id': 268, 'act_date': '2020-12-06T17:10:24.776977', 'rec_date': '2020-12-06T17:10:24.790146', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:24.830375] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:24.830375] File detected: FLOW/LINES/ln_270.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 567, 'file_id': 2, 'line_id': 270, 'act_date': '2020-12-06T17:10:24.977612', 'rec_date': '2020-12-06T17:10:24.980016', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:25.024490] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:25.024490] File detected: FLOW/LINES/ln_272.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 569, 'file_id': 2, 'line_id': 272, 'act_date': '2020-12-06T17:10:25.178462', 'rec_date': '2020-12-06T17:10:25.181237', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:25.225308] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:25.225308] File detected: FLOW/LINES/ln_274.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 571, 'file_id': 2, 'line_id': 274, 'act_date': '2020-12-06T17:10:25.379008', 'rec_date': '2020-12-06T17:10:25.381004', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:25.425855] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:25.425855] File detected: FLOW/LINES/ln_276.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 573, 'file_id': 2, 'line_id': 276, 'act_date': '2020-12-06T17:10:25.563988', 'rec_date': '2020-12-06T17:10:25.578466', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:25.610867] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:25.610867] File detected: FLOW/LINES/ln_278.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 575, 'file_id': 2, 'line_id': 278, 'act_date': '2020-12-06T17:10:25.748964', 'rec_date': '2020-12-06T17:10:25.760159', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:25.795840] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:25.795840] File detected: FLOW/LINES/ln_280.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 577, 'file_id': 2, 'line_id': 280, 'act_date': '2020-12-06T17:10:25.9339', 'rec_date': '2020-12-06T17:10:25.940082', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:25.980817] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:25.980817] File detected: FLOW/LINES/ln_282.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 579, 'file_id': 2, 'line_id': 282, 'act_date': '2020-12-06T17:10:26.128948', 'rec_date': '2020-12-06T17:10:26.129365', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:26.165247] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:26.165247] File detected: FLOW/LINES/ln_284.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 581, 'file_id': 2, 'line_id': 284, 'act_date': '2020-12-06T17:10:26.312391', 'rec_date': '2020-12-06T17:10:26.318123', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:26.365786] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:26.365786] File detected: FLOW/LINES/ln_286.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 583, 'file_id': 2, 'line_id': 286, 'act_date': '2020-12-06T17:10:26.497303', 'rec_date': '2020-12-06T17:10:26.512134', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:26.550727] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:26.550727] File detected: FLOW/LINES/ln_288.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 584, 'file_id': 2, 'line_id': 288, 'act_date': '2020-12-06T17:10:26.682134', 'rec_date': '2020-12-06T17:10:26.695381', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 2, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:26.735549] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:26.735549] File detected: FLOW/LINES/ln_290.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 585, 'file_id': 2, 'line_id': 290, 'act_date': '2020-12-06T17:10:26.882705', 'rec_date': '2020-12-06T17:10:26.884287', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 3, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:26.929581] File has been processed successfully.
+Closing Db... OK
+
+[2020-12-06 17:10:26.936091] File detected: FLOW/LINES/ln_292.json
+Connect Db... OK
+{'proc': {'info': 'No details', 'name': 'AddToBucket', 'action': 'Insert'}, 'rec_id': 586, 'file_id': 2, 'line_id': 292, 'act_date': '2020-12-06T17:10:27.083317', 'rec_date': '2020-12-06T17:10:27.093196', 'rec_rank': 1, 'rec_user': 'mgrpoc', 'bucket_id': 1, 'rec_notice': None, 'rec_status': 'R'}
+[2020-12-06 17:10:27.136693] File has been processed successfully.
+Closing Db... OK
+
